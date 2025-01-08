@@ -3,10 +3,10 @@
 ## 0. What is pole figure?
 A Pole figure is tools to visualize crystallographic textures of crystalline materials. It shows the angle and distribution that a particular crystallographic direction (or plane) makes with the surface of the material. It is mainly utilized in tissue analysis of metals, ceramics, or polycrystalline materials.
 
-![alt text](README/polefigure(110).gif)<br>
+![alt text](polefigure(110).gif)<br>
 *(110) Pole figure of cubic*
 
-![alt text](README/polefigure(100).gif)<br>
+![alt text](polefigure(100).gif)<br>
 *(100) Pole figure of cubic*
 
 
