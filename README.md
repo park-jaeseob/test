@@ -94,7 +94,10 @@ $ mypf.pf_new(poles=[[1,0,0],[1,1,0]],mn=0.5,mx=3.5,ismooth=10)
 
 ## More examples
 ![Ti polefigure(0001)](README/(0001)pf_Ti.png)<br>
-(0001) Polefigure of Ti
+(0001) Polefigure of Titanium
+
+![U polefigure(0001)](README/pf_U.png)<br>
+(100) (010) (001) Polefigure of Uranium
 
 
 
@@ -188,5 +191,7 @@ polefigure 생성
 
 ## 다른 예시들
 ![Ti polefigure(0001)](README/(0001)pf_Ti.png)<br>
-(0001) 티타늄의 polefigure
+티타늄의 (0001) polefigure
 
+![U polefigure(0001)](README/pf_U.png)<br>
+우라늄의 (100) (010) (001) Polefigure
