@@ -3,10 +3,10 @@
 ## 0. What is pole figure?
 A Pole figure is tools to visualize crystallographic textures of crystalline materials. It shows the angle and distribution that a particular crystallographic direction (or plane) makes with the surface of the material. It is mainly utilized in tissue analysis of metals, ceramics, or polycrystalline materials.
 
-![alt text](README/polefigure(110).gif)<br>
+![explain polefigure gif](README/polefigure(110).gif)<br>
 *(110) Pole figure of cubic*
 
-![alt text](README/polefigure(100).gif)<br>
+![explain polefigure gif](README/polefigure(100).gif)<br>
 *(100) Pole figure of cubic*
 
 
@@ -92,8 +92,9 @@ $ mypf.pf_new(poles=[[1,0,0],[1,1,0]],mn=0.5,mx=3.5,ismooth=10)
 *Use additional arguments mn, mx, ismooth*
 
 
-
-
+## More examples
+![Ti polefigure(0001)](README/(0001)pf_Ti.png)<br>
+(0001) Polefigure of Ti
 
 
 
@@ -103,10 +104,10 @@ $ mypf.pf_new(poles=[[1,0,0],[1,1,0]],mn=0.5,mx=3.5,ismooth=10)
 ## 0. Pole figure란?
 폴 피규어는 결정질 물질의 결정학적 질감을 시각화하는 도구입니다. 특정 결정학적 방향(또는 평면)이 물질 표면과 이루는 각도와 분포를 보여줍니다. 주로 금속, 세라믹 또는 다결정 물질의 조직 분석에 사용됩니다.
 
-![alt text](README/polefigure(110).gif)<br>
+![explain polefigure gif](README/polefigure(110).gif)<br>
 *(110) Pole figure of cubic*
 
-![alt text](README/polefigure(100).gif)<br>
+![explain polefigure gif](README/polefigure(100).gif)<br>
 *(100) Pole figure of cubic*
 
 ## 1. 기본 준비
@@ -182,3 +183,8 @@ polefigure 생성
 
 ![example image](README/Figure_2.png)<br>
 *mn, mx, ismooth arguments를 추가로 사용*
+
+## 다른 예시들
+![Ti polefigure(0001)](README/(0001)pf_Ti.png)<br>
+(0001) 티타늄의 polefigure
+
