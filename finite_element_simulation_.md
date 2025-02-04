@@ -52,6 +52,8 @@ This script allows to neatly run dEVPSC-FE with prescribed conditions saved in t
 | `--idtderiv IDTDERIV`    | 0: old way; 1: new way                                                  |
 | `--iregime IREGIME`      | 2: delta-EVPSC, 3: sigma-EVPSC                                          |
 
+The upper case part should contain additional data for the corresponding argument.
+
 ### 1-4. Input to via dEVPSC-FE run via UMAT
 INPUT file must contain the input data necessary to run UMAT.
 
