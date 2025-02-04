@@ -51,10 +51,12 @@ This script allows to neatly run dEVPSC-FE with prescribed conditions saved in t
 | `--usermat USERMAT`      | Your user material subroutine                                           |
 | `--idtderiv IDTDERIV`    | 0: old way; 1: new way                                                  |
 | `--iregime IREGIME`      | 2: delta-EVPSC, 3: sigma-EVPSC                                          |
+
 The upper case part should contain additional data for the corresponding argument.
 
 ### 1-4. input to run dEVPSC-FE run via UMAT
- INPUT file must contain the input data necessary to run UMAT. Simulation files are provided by putting data such as iodf (ODF selection option), ODF or TEXTURE file location setting, SX file, idiff, diff file, abaqus analysis file (.inf file) node, integral point information, ipx, dummy, etc.
+ INPUT file must contain the input data necessary to run UMAT. Simulation files are provided by putting data 
+ such as iodf (ODF selection option), ODF or TEXTURE file location setting, SX file, idiff, diff file, abaqus analysis file (.inf file) node, integral point information, ipx, dummy, etc.
 
 ```text
 * iodf (0: discrete texture; 1: odf (mtex format); 2: random texture)
