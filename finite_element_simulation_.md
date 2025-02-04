@@ -52,6 +52,39 @@ This script allows to neatly run dEVPSC-FE with prescribed conditions saved in t
 | `--idtderiv IDTDERIV`    | 0: old way; 1: new way                                                  |
 | `--iregime IREGIME`      | 2: delta-EVPSC, 3: sigma-EVPSC                                          |
 
+### 1-4. Input to via dEVPSC-FE run via UMAT
+INPUT file must contain the input data necessary to run UMAT.
+
+```
+** input to run dEVPSC-FE run via UMAT
+* iodf (0: discrete texture; 1: odf (mtex format); 2: random texture) 
+2
+* texture/ODF file;; eddq_push/EDDQ100
+../../../matData/vpscData/EDDQ/eddq.odf
+* sx file
+eddq_push/eddq_yj.sx
+* idiff (0: no diffraction; 1: diffraction)
+0
+* diff file (dummy if idiff = 0 is given in the above line)
+matData/lc/bcc.dif
+* abaqus input file
+inps/UMAT_DEV_VEL_0001.inp
+* noel and npt subjected to 'lookup' (could be dummy unless <isa> flag is on)
+1
+1 1
+* ipx
+0
+* pxfn (dummy if ipx is 0)
+dummy
+```
+- iodf : Which type of solver
+- texture/ODF file : Name of odf file 
+- sx file : Name of single crystal file
+- idiff : Use of diffraction
+- diff file : Name of diffraction file
+- abaqus input file : Name of abaqus inp file
+
+
 ## 2. Post-analysis
 One can generate "*.odf" file and use Abaqus CAE.
 Other method based on several Python scripts is also available.
