@@ -4,6 +4,9 @@ Examples of simulation differences based on different material properties in the
 ## 1. Part
 A quarter disk with a central hole, diameter, and thickness of 1 mm. Disk's mesh size set to 0.2. 
 Rigid plane to press disk.
+
+<img src="image/Ex01_Oring/Oring_part.png" alt="drawing" width="300"/>
+
 ## 2. Boundary Counditions
 ### 2-1. Symmetry/Antisymmetry/Encastre
 
