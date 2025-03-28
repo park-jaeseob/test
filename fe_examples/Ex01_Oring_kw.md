@@ -22,9 +22,23 @@ It used quarter ring so use Symmetry option XSYMM,YSYMM
 | UR3                           |   0   |
 
 ## 3. Material Properties
-### 3.1 el el+pl
+### 3.1 elastic & elasto-plastic
 
-### 3.2 only pl
+Elastic property value
+| Young's Modulus  | Poisson's Ratio |
+|:-----------------|:------|
+| 210000    |   0.3  |
+
+Plastic property value
+| Yeild Stress | Plastic Strain |
+|:-----------------|:------|
+|  |  |
+|  |  |
+|  |  |
+
+'elastic result gif'
+'elasto-plastic result gif'
+### 3.2 only plastic
 
 ### 3.3 stress strain curve
 
