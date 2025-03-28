@@ -11,14 +11,15 @@ Rigid plane to press ring. Distance of two part is 0.1.
 ### 2-1. Symmetry/Antisymmetry/Encastre
 It used quarter ring so use Symmetry option XSYMM,YSYMM
 ### 2-2. Displacement/Rotation
-| Displacement of plane | Value |
-|:----------------------|:------|
-| U1                    |   0   |
-| U2                    | -0.25 |
-| U3                    |   0   |
-| UR1                   |   0   |
-| UR2                   |   0   |
-| UR3                   |   0   |
+
+| Plane's Displacement/Rotation | Value |
+|:------------------------------|:------|
+| U1                            |   0   |
+| U2                            | -0.25 |
+| U3                            |   0   |
+| UR1                           |   0   |
+| UR2                           |   0   |
+| UR3                           |   0   |
 
 ## 3. Material Properties
 ### 3.1 el el+pl
