@@ -9,11 +9,11 @@ Rigid plane to press disk.
 
 ## 2. Boundary Counditions
 ### 2-1. Symmetry/Antisymmetry/Encastre
-
+It used quarter disk so use Symmetry option XSYMM,YSYMM
 ### 2-2. Displacement/Rotation
 
 
-## 3. 
+## 3. Material Properties
 ### 3.1 el el+pl
 
 ### 3.2 only pl
