@@ -58,12 +58,19 @@ Elastic property value
 Plastic property value
 | Yield Stress | Plastic Strain |
 |:-------------|:---------------|
-|  |  |
-|  |  |
-|  |  |
+| 755          | 0              |
+| 809          | 0.01           |
+| 829          | 0.02           |
+| 842          | 0.1            |
+| 895          | 0.15           |
+| 922          | 0.4            |
+| 953          | 1              |
+| 1100         | 4              |
 
-<img src="image/Ex01_Oring/elasticity.gif" alt ="elastic material" width="200">
+<img src="image/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
 *elastic material*
+<img src="image/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
+*elasto-plastic material*
 
 ### 4.2 only plastic
 
