@@ -79,8 +79,16 @@ Plastic property value
 *elastic material*
 <img src="image/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
 *elasto-plastic material*
+<img src="image/Ex01_Oring/elastic_material_graph.png" alt = "drawing" width = "250"> 
+<img src="image/Ex01_Oring/elasto_plastic_material_graph.png" alt = "drawing" width = "250"> 
 
 ### 4.2 only plastic
+
+
+<img src="image/Ex01_Oring/Oring_pl.gif" alt ="drawing" width="200">
+*plastic material*
+<img src="image/Ex01_Oring/plastic_material_graph.png" alt = "drawing" width = "250"> 
+
 
 ### 4.3 stress strain curve
 
