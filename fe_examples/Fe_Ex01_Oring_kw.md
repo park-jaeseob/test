@@ -49,14 +49,25 @@ Surface to surface contact(Standard)
 | Discretization method | 0.1                        |
 
 ## 4. Material Properties
-### 4.1 elastic & elasto-plastic
+### 4.1 elastic
 
-Elastic property value
-| Young's Modulus | Poisson's Ratio |
-|:----------------|:----------------|
-| 210000          | 0.3             |
+#### Elastic Property Value
 
-Plastic property value
+| Property         | Value   |
+|------------------|--------:|
+| Young's Modulus  | 210000  |
+| Poisson's Ratio  | 0.3     |
+
+
+<img src="image/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
+<img src="image/Ex01_Oring/elastic_material_graph.png" alt = "drawing" width = "250"> 
+*elastic material*
+
+
+### 4.2 & elasto-plastic
+
+#### Plastic property value
+
 | Yield Stress | Plastic Strain |
 |:-------------|:---------------|
 | 755          | 0              |
@@ -74,20 +85,19 @@ Plastic property value
 | 1080         | 3              |
 | 1110         | 4              |
 
-
-<img src="image/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
-<img src="image/Ex01_Oring/elastic_material_graph.png" alt = "drawing" width = "250"> 
-*elastic material*
 <img src="image/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
 <img src="image/Ex01_Oring/elasto_plastic_material_graph.png" alt = "drawing" width = "250"> 
 *elasto-plastic material*
 
-### 4.2 only plastic
+
+
+### 4.3 only plastic
+In order to apply only plasticity, a high modulus of elasticity was applied so that plastic deformation could be made. Yield stress and plastic strain are as above.
+
+(Young's Modulus=10000000,Poisson's Ratio=0.3)
 
 
 <img src="image/Ex01_Oring/Oring_pl.gif" alt ="drawing" width="200">
 <img src="image/Ex01_Oring/plastic_material_graph.png" alt = "drawing" width = "250"> 
 *plastic material*
-
-### 4.3 stress strain curve
 
