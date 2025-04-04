@@ -20,6 +20,7 @@ Step 1
 | UR1                           |   0   |
 | UR2                           |   0   |
 | UR3                           |   0   |
+
 Step 2
 | Plane's Displacement/Rotation | Value |
 |:------------------------------|:------|
