@@ -5,7 +5,7 @@ Examples of simulation differences based on different material properties in the
 A quarter ring with a central hole, diameter, and thickness of 1 mm. Ring's mesh size set to 0.2. 
 Rigid plane to press ring. Distance of two part is 0.1.
 
-<img src="image/Ex01_Oring/Oring_part.png" alt="part drawing" width="200"/>
+<img src="images/Ex01_Oring/Oring_part.png" alt="part drawing" width="200"/>
 
 ## 2. Boundary Counditions
 ### 2-1. Symmetry/Antisymmetry/Encastre
@@ -56,8 +56,11 @@ Surface to surface contact(Standard)
 | Young's Modulus  | 210000  |
 | Poisson's Ratio  | 0.3     |
 
-<img src="image/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
-<img src="image/Ex01_Oring/elastic_material_graph.png" alt = "graph" width = "250"> 
+Example Abaqus files are located in
+[```inps/Ex01_Oring/Oring_el_02.inp```](inps/Ex01_Oring/Oring_el_02.inp).
+
+<img src="images/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
+<img src="images/Ex01_Oring/elastic_material_graph.png" alt = "graph" width = "250"> 
 *elastic material*
 
 ### 4.2 elasto-plastic
@@ -80,14 +83,20 @@ Surface to surface contact(Standard)
 | 1080         | 3              |
 | 1110         | 4              |
 
-<img src="image/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
-<img src="image/Ex01_Oring/elasto_plastic_material_graph.png" alt = "graph" width = "250"> 
+Example Abaqus files are located in
+[```inps/Ex01_Oring/Oring_elpl.inp```](inps/Ex01_Oring/Oring_elpl.inp).
+
+<img src="images/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
+<img src="images/Ex01_Oring/elasto_plastic_material_graph.png" alt = "graph" width = "250"> 
 *elasto-plastic material*
 
 ### 4.3 only plastic
 Since plastic deformation without elastic deformation could not be simulated in abaqus, the elastic modulus was set to be large so that it entered the area of plastic deformation as quickly as possible. Plastic property values are as above. (Young's Modulus=10000000, Poisson's Ratio=0.3)
 
-<img src="image/Ex01_Oring/Oring_pl.gif" alt ="drawing" width="200">
-<img src="image/Ex01_Oring/plastic_material_graph.png" alt = "graph" width = "250"> 
+Example Abaqus files are located in
+[```inps/Ex01_Oring/Oring_pl.inp```](inps/Ex01_Oring/Oring_pl.inp).
+
+<img src="images/Ex01_Oring/Oring_pl.gif" alt ="drawing" width="200">
+<img src="images/Ex01_Oring/plastic_material_graph.png" alt = "graph" width = "250"> 
 *plastic material*
 
