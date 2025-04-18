@@ -56,7 +56,7 @@ Surface to surface contact(Standard)
 | Young's Modulus  | 210000  |
 | Poisson's Ratio  | 0.3     |
 
-Example Abaqus files are located in
+Example Abaqus file is located in
 [```inps/Ex01_Oring/Oring_el_02.inp```](inps/Ex01_Oring/Oring_el_02.inp).
 
 <img src="images/Ex01_Oring/Oring_el.gif" alt ="drawing" width="200">
@@ -83,7 +83,7 @@ Example Abaqus files are located in
 | 1080         | 3              |
 | 1110         | 4              |
 
-Example Abaqus files are located in
+Example Abaqus file is located in
 [```inps/Ex01_Oring/Oring_elpl.inp```](inps/Ex01_Oring/Oring_elpl.inp).
 
 <img src="images/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
@@ -93,7 +93,7 @@ Example Abaqus files are located in
 ### 4.3 only plastic
 Since plastic deformation without elastic deformation could not be simulated in abaqus, the elastic modulus was set to be large so that it entered the area of plastic deformation as quickly as possible. Plastic property values are as above. (Young's Modulus=10000000, Poisson's Ratio=0.3)
 
-Example Abaqus files are located in
+Example Abaqus file is located in
 [```inps/Ex01_Oring/Oring_pl.inp```](inps/Ex01_Oring/Oring_pl.inp).
 
 <img src="images/Ex01_Oring/Oring_pl.gif" alt ="drawing" width="200">
@@ -101,10 +101,9 @@ Example Abaqus files are located in
 *plastic material*
 
 ### 4.4 umat
+Simulation file in umat is slightly different from Abaqus. If want to know the difference, refer to [```../finite_element_simulation.md```](../finite_element_simulation.md).
 
-
-
-Example Abaqus files are located in
+Example Abaqus file for umat is located in
 [```inps/Ex01_Oring/Oring_umat.inp```](inps/Ex01_Oring/Oring_umat.inp).
 
 <img src="images/Ex01_Oring/Oring_umat.gif" alt ="drawing" width="200">
