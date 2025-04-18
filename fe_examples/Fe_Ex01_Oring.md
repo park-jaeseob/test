@@ -101,7 +101,7 @@ Example Abaqus file is located in
 *plastic material*
 
 ### 4.4 umat
-Simulation file in umat is slightly different from Abaqus. If want to know the difference, refer to [```../finite_element_simulation.md```](../finite_element_simulation.md).
+Simulation file in umat is slightly different from Abaqus. If want to know the difference, refer to [```finite_element_simulation.md```](../finite_element_simulation.md).
 
 Example Abaqus file for umat is located in
 [```inps/Ex01_Oring/Oring_umat.inp```](inps/Ex01_Oring/Oring_umat.inp).
