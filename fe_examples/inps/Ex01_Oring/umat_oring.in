@@ -1,0 +1,29 @@
+** input to run dEVPSC-FE run via UMAT
+* solver (0: standard, 1: explicit)
+0
+* nph
+1
+* wph
+1
+* iodf (0: discrete texture; 1: odf (mtex format); 2: isotropic texture)
+1
+* texture file
+../../../matData/vpscData/aa7075_kjh/AA7075_T6.odf
+* sx file
+../../../matData/vpscData/aa7075_kjh/sx
+* idiff (0: no diffraction; 1: diffraction)
+0
+* diff file (dummy if idiff = 0 is given in the above line)
+matData/lc/bcc.dif
+* abaqus input file
+../../../docs_src/fe_examples/inps/Ex01_Oring/oring_umat.inp
+* noel and npt subjected to 'lookup' (could be dummy unless <isa> flag is on)
+1
+1 1
+* ipx
+0
+* pxfn (dummy if ipx is 0)
+dummy
+
+
+**python -run.py --fn umat_oring.in --ngrs 10 --cpus 8 --idtderiv 0

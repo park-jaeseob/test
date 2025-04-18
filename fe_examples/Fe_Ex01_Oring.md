@@ -100,3 +100,11 @@ Example Abaqus files are located in
 <img src="images/Ex01_Oring/plastic_material_graph.png" alt = "graph" width = "250"> 
 *plastic material*
 
+### 4.4 umat
+
+
+
+Example Abaqus files are located in
+[```inps/Ex01_Oring/Oring_umat.inp```](inps/Ex01_Oring/Oring_umat.inp).
+
+<img src="images/Ex01_Oring/Oring_umat.gif" alt ="drawing" width="200">
