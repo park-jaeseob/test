@@ -84,14 +84,14 @@ Example Abaqus file is located in
 | 1110         | 4              |
 
 Example Abaqus file is located in
-[```inps/Ex01_Oring/Oring_elpl.inp```](inps/Ex01_Oring/Oring_elpl.inp).
+[```inps/Ex01_Oring/Oring_elpl.inp```](inps/Ex01_Oring/Oring_elpl.inp)
 
 <img src="images/Ex01_Oring/Oring_elpl.gif" alt ="drawing" width="200">
 <img src="images/Ex01_Oring/elasto_plastic_material_graph.png" alt = "graph" width = "250"> 
 *elasto-plastic material*
 
 ### 4.3 only plastic
-Since plastic deformation without elastic deformation could not be simulated in abaqus, the elastic modulus was set to be large so that it entered the area of plastic deformation as quickly as possible. Plastic property values are as above. (Young's Modulus=10000000, Poisson's Ratio=0.3)
+Since plastic deformation without elastic deformation could not be simulated in abaqus, the elastic modulus was set to be large so that it entered the area of plastic deformation as quickly as possible. Plastic property values are as above. (Young's Modulus=10000000, Poisson's Ratio=0.3).
 
 Example Abaqus file is located in
 [```inps/Ex01_Oring/Oring_pl.inp```](inps/Ex01_Oring/Oring_pl.inp).
@@ -105,5 +105,7 @@ Simulation file in umat is slightly different from Abaqus. If want to know the d
 
 Example Abaqus file for umat is located in
 [```inps/Ex01_Oring/Oring_umat.inp```](inps/Ex01_Oring/Oring_umat.inp).
+Example .in file for umat is located in
+[```umat/src/evpsc_incr/Oring_umat.in```](../umat/src/evpsc_incr/Oring_umat.in).
 
 <img src="images/Ex01_Oring/Oring_umat.gif" alt ="drawing" width="200">
