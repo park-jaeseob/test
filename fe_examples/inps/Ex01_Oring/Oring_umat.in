@@ -16,7 +16,7 @@
 * diff file (dummy if idiff = 0 is given in the above line)
 matData/lc/bcc.dif
 * abaqus input file
-../../../docs_src/fe_examples/inps/Ex01_Oring/oring_umat.inp
+../../../docs_src/fe_examples/inps/Ex01_Oring/Oring_umat.inp
 * noel and npt subjected to 'lookup' (could be dummy unless <isa> flag is on)
 1
 1 1
@@ -26,4 +26,4 @@ matData/lc/bcc.dif
 dummy
 
 
-**python -run.py --fn umat_oring.in --ngrs 10 --cpus 8 --idtderiv 0
+**python run.py --fn umat_oring.in --ngrs 10 --cpus 8 --idtderiv 0
